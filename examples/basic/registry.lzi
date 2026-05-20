@@ -1,0 +1,8 @@
+registry
+  env
+    group mtls
+      server MTLS_CA_BUNDLE_PATH: Text required in production
+  bindings
+    mtls: MutualTLS
+      adapter @plugin/mtls
+      endpoint env.MTLS_CA_BUNDLE_PATH
