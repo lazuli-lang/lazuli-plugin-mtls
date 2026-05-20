@@ -1,6 +1,6 @@
 module github.com/lazuli-lang/lazuli-plugin-mtls
 go 1.26.0
-require lazuli.dev/runtime v0.0.0
+require lazuli.dev/runtime v0.1.0
 require (
 	github.com/aws/aws-sdk-go-v2 v1.41.7 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.10 // indirect
@@ -53,4 +53,4 @@ require (
 	golang.org/x/text v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-replace lazuli.dev/runtime => C:/tmp/laz-w3-mtls/runtime/go
+
